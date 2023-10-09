@@ -1,0 +1,77 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #111;
+    color: #121010;
+    padding: 10px 0;
+    text-align:center;
+}
+.logo img {
+    width: 100px;
+}
+.movie-thumbnails {
+    max-width: 1200px;
+    max-height: 500px;
+    padding: 10px 0;
+    background-color: #111;
+    color: #121010;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+}
+.movie-thumbnail {
+    width: 400px;
+    background-color: #111;
+    margin:300;
+}
+.movie-thumbnail img {
+    width: 200%;
+    height: 150;
+}
+.email-subscription {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.email-subscription h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.email-subscription p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.email-subscription form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-subscription input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 16px;
+}
+.email-subscription button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
